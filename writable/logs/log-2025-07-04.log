@@ -1,0 +1,13 @@
+ERROR - 2025-07-04 04:00:15 --> mysqli_sql_exception: Can't create database 'ci4_blog'; database exists in /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('CREATE DATABASE...', 0)
+#1 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Database/Forge.php(232): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Commands/Database/CreateDatabase.php(136): CodeIgniter\Database\Forge->createDatabase('ci4_blog')
+#5 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/CLI/Commands.php(74): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/CLI/Console.php(47): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Boot.php(360): CodeIgniter\CLI\Console->run()
+#8 /Users/irchamali/Projects/new/project3/vendor/codeigniter4/framework/system/Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#9 /Users/irchamali/Projects/new/project3/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#10 {main}
