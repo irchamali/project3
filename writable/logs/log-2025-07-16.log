@@ -1,0 +1,39 @@
+CRITICAL - 2025-07-16 13:15:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin_create_post.php"
+[Method: GET, Route: admin/post/new]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_create_post.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('admin_create_post', [], true)
+ 3 APPPATH/Controllers/PostAdmin.php(54): view('admin_create_post')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PostAdmin->create()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostAdmin))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+CRITICAL - 2025-07-16 13:16:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin_post_create.php"
+[Method: GET, Route: admin/post/new]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_post_create.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('admin_post_create', [], true)
+ 3 APPPATH/Controllers/PostAdmin.php(54): view('admin_post_create')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PostAdmin->create()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostAdmin))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+CRITICAL - 2025-07-16 13:17:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin_post_create.php"
+[Method: GET, Route: admin/post/new]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_post_create.php')
+ 2 SYSTEMPATH/Common.php(1173): CodeIgniter\View\View->render('admin_post_create', [], true)
+ 3 APPPATH/Controllers/PostAdmin.php(54): view('admin_post_create')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PostAdmin->create()
+ 5 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PostAdmin))
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
