@@ -1,0 +1,201 @@
+CRITICAL - 2025-07-23 12:40:51 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: admin/post]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Filters/BaseFilter.php(42): service('authentication')
+ 9 SYSTEMPATH/Filters/Filters.php(299): Myth\Auth\Filters\BaseFilter->__construct()
+10 SYSTEMPATH/Filters/Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Myth\\Auth\\Filters\\LoginFilter')
+11 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+12 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/post', 'before')
+13 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+CRITICAL - 2025-07-23 12:41:14 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: admin/post]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Filters/BaseFilter.php(42): service('authentication')
+ 9 SYSTEMPATH/Filters/Filters.php(299): Myth\Auth\Filters\BaseFilter->__construct()
+10 SYSTEMPATH/Filters/Filters.php(239): CodeIgniter\Filters\Filters->createFilter('Myth\\Auth\\Filters\\LoginFilter')
+11 SYSTEMPATH/Filters/Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+12 SYSTEMPATH/CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('admin/post', 'before')
+13 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:41:14 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:41:15 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:41:38 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:43:48 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:44:29 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:44:30 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: logout]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:44:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:44:33 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-23 12:44:34 --> ErrorException: Undefined property: Config\Auth::$authenticationLibs
+[Method: GET, Route: login]
+in VENDORPATH/myth/auth/src/Config/Services.php on line 32.
+ 1 VENDORPATH/myth/auth/src/Config/Services.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Auth::$authenticationLibs', '/Users/irchamali/Projects/new/project3/vendor/myth/auth/src/Config/Services.php', 32)
+ 2 SYSTEMPATH/Config/BaseService.php(312): Myth\Auth\Config\Services::authentication('local', Object(Myth\Auth\Models\UserModel), Object(Myth\Auth\Models\LoginModel), false)
+ 3 SYSTEMPATH/Config/BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('authentication', [...])
+ 4 VENDORPATH/myth/auth/src/Config/Services.php(24): CodeIgniter\Config\BaseService::getSharedInstance('authentication', 'local', null, null)
+ 5 SYSTEMPATH/Config/BaseService.php(321): Myth\Auth\Config\Services::authentication()
+ 6 SYSTEMPATH/Config/BaseService.php(202): CodeIgniter\Config\BaseService::__callStatic('authentication', [])
+ 7 SYSTEMPATH/Common.php(1000): CodeIgniter\Config\BaseService::get('authentication')
+ 8 VENDORPATH/myth/auth/src/Controllers/AuthController.php(32): service('authentication')
+ 9 SYSTEMPATH/CodeIgniter.php(903): Myth\Auth\Controllers\AuthController->__construct()
+10 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+11 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH/rewrite.php(44): require_once('/Users/irchamali/Projects/new/project3/public/index.php')
+DEBUG - 2025-07-23 12:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 12:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-23 13:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
